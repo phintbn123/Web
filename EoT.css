@@ -123,21 +123,32 @@ body{
     text-decoration: none;
     color:white;
 }
+.content:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
 .pagination{
     text-align: center;
 }
 .pagination a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration:none ;
     padding: 8px 15px;
     display: inline-block;
 }
 .pagination a.active{
-    background-color: aqua;
+    background-color: rgb(7, 180, 255);
     font-weight: bold;
     border-radius: 5px;
 }
 .pagination a:hover:not(.active){
     background-color: grey;
     border-radius: 5px;
+}
+.footer{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-between;
 }
